@@ -249,25 +249,9 @@
 		} else {
 			switchTrack(++currentTrack);
 		}
-	});
-	
-	$('#playlist li').each(function(i){
-		$(this).on('click', function(){
-			if (isShuffle) {
-				for (var j = 0; j < shuffleArray.length; j++) {
-					if (shuffleArray[j] === i) {
-						shuffleIndex = j;
-						break;
-					}
-				}
-			} else {
-			    currentTrack = i;
-			}
-			switchTrack(i);
-		});
 	});	
 
-	$("#player .liebiao").on('click',function(){
+	$(".liebiao").on('click',function(){
 		isShuffle = !isShuffle;
 		if (isShuffle) {
 	        $("#player .liebiao").attr("title","点击关闭随机播放");
@@ -292,7 +276,22 @@
 		}
 		localStorage.qplayer = isShuffle;
 	});
-
+	
+	$('#playlist li').each(function(i){
+		$(this).on('click', function(){
+			if (isShuffle) {
+				for (var j = 0; j < shuffleArray.length; j++) {
+					if (shuffleArray[j] === i) {
+						shuffleIndex = j;
+						break;
+					}
+				}
+			} else {
+			    currentTrack = i;
+			}
+			switchTrack(i);
+		});
+	});
 
     var startX, endX;
     $('#player .ctrl .musicTag').mousedown(function(event){
