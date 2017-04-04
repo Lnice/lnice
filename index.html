@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Maid</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="css/mui.min.css"/>
+	<link rel="stylesheet" href="css/mplayer/player.css">
+</head>
+<body>
+	<div class="mui-content">
+		<div id="tabbar-with-music" class="mui-control-content mui-active">
+			<div id="QPlayer">
+				<div id="pContent">
+				<div id="player">
+				<span class="cover"></span>
+				<div class="ctrl">
+				<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+				</div>
+				<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				<ol id="playlist"></ol>
+			</div>
+		</div>
+		<div id="tabbar-with-compose" class="mui-control-content">
+		</div>
+		<div id="tabbar-with-chat" class="mui-control-content">			
+		</div>
+		<div id="tabbar-with-im" class="mui-control-content">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						隐私
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						通用
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" style="margin-top: 25px;">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						关于
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" style="margin-top: 25px;">
+				<li class="mui-table-view-cell">
+					<a style="text-align: center;color: #FF3B30;">
+						退出登录
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item mui-active" href="#tabbar-with-music">
+	        <span class="mui-icon mui-icon-paperplane"></span>
+	        <span class="mui-tab-label">音乐</span>
+	    </a>
+	    <a class="mui-tab-item" href="#tabbar-with-compose">
+	        <span class="mui-icon mui-icon-compose"></span>
+	        <span class="mui-tab-label">评论</span>
+	    </a>
+	    <a class="mui-tab-item" href="#tabbar-with-chat">
+	        <span class="mui-icon mui-icon-chatbubble"></span>
+	        <span class="mui-tab-label">朋友</span>
+	    </a>
+	    <a class="mui-tab-item" href="#tabbar-with-im">
+	        <span class="mui-icon mui-icon mui-icon-person"></span>
+	        <span class="mui-tab-label">我</span>
+	    </a>
+	</nav>
+    <script src="js/mui.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.marquee.min.js"></script>
+	<script src="css/mplayer/player.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</body>
+</html>
