@@ -15,7 +15,8 @@
 #player {
 	height:60px;
 	margin:0 auto;
-	position:relative;
+	position:fixed;
+	background:rgb(255,255,255);
 	box-sizing:border-box;
 }
 #player .cover {
@@ -160,12 +161,6 @@
 	font-weight:bold;
 	border-left:3px solid #1abc9c;
 	padding:3px 15px 3px 11px;
-}
-#pContent {	
-	position:fixed;
-	width:100%;
-	top:0px;
-	box-shadow:blockbox-shadow:1px 0px 5px 2px rgb(36,95,88);
 }
 @-webkit-keyframes rotate {
 	from {
