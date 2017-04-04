@@ -1,5 +1,4 @@
 #QPlayer {
-	position:fixed;
 	overflow:hidden;
 	width: 100%;
 	transition:transform .5s ease;
