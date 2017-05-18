@@ -424,3 +424,7 @@ to {
   padding: 20px;
   display: table;
 }
+p img{	
+  max-width: 100%;
+  height: auto;
+}
