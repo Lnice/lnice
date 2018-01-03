@@ -35,15 +35,25 @@
 				<ol id="playlist"></ol>
 			</div>
 		</div>
-		<div id="tabbar-with-compose" class="mui-control-content">
-		</div>
-		<div id="tabbar-with-chat" class="mui-control-content">	
-			<div class="mui-content-padded">
-				<p>
-					<img src="css/sit.png" data-preview-src="" data-preview-group="1">
-				</p>
-			</div>
-		</div>
+		<%--<div id="tabbar-with-compose" class="mui-control-content">
+		</div>--%>
+		
+        <div id="tabbar-with-chat" class="mui-control-content" style="padding-top:20px">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell mui-media"><a href="javascript:;">
+                    <img class="mui-media-object mui-pull-left" src="/css/mplayer/20180103101720.png">
+                    <div class="mui-media-body">
+                        谢章峰<p class='mui-ellipsis'>这里是美少女王维的男朋友,yeah!</p>
+                    </div>
+                </a></li>
+                <li class="mui-table-view-cell mui-media"><a href="javascript:;">
+                    <img class="mui-media-object mui-pull-left" src="/css/mplayer/20180103101720.png">
+                    <div class="mui-media-body">
+                        王维<p class='mui-ellipsis'>大家好，我是谢章峰的女朋友,[爱心]</p>
+                    </div>
+                </a></li>
+            </ul>
+        </div>
 		<div id="tabbar-with-im" class="mui-control-content">
 			<ul class="mui-table-view">
 				<li class="mui-table-view-cell">
@@ -75,20 +85,20 @@
 	</div>
 	<nav class="mui-bar mui-bar-tab">
 	    <a class="mui-tab-item mui-active" href="#tabbar-with-music">
-	        <span class="mui-icon mui-icon-paperplane"></span>
-	        <span class="mui-tab-label">音乐</span>
+	        <span class="mui-icon mui-icon-paperplane"  style="color:#FF82AB"></span>
+	        <span class="mui-tab-label"  style="color:#FF82AB">音乐</span>
 	    </a>
-	    <a class="mui-tab-item" href="#tabbar-with-compose">
+	    <%--<a class="mui-tab-item" href="#tabbar-with-compose">
 	        <span class="mui-icon mui-icon-compose"></span>
 	        <span class="mui-tab-label">评论</span>
-	    </a>
+	    </a>--%>
 	    <a class="mui-tab-item" href="#tabbar-with-chat">
-	        <span class="mui-icon mui-icon-chatbubble"></span>
-	        <span class="mui-tab-label">朋友</span>
+	        <span class="mui-icon mui-icon-chatbubble" style="color:#FF82AB"></span>
+	        <span class="mui-tab-label" style="color:#FF82AB">朋友</span>
 	    </a>
 	    <a class="mui-tab-item" href="#tabbar-with-im">
-	        <span class="mui-icon mui-icon mui-icon-person"></span>
-	        <span class="mui-tab-label">我</span>
+	        <span class="mui-icon mui-icon mui-icon-person" style="color:#FF82AB"></span>
+	        <span class="mui-tab-label" style="color:#FF82AB">我</span>
 	    </a>
 	</nav>
     <script src="js/mui.min.js"></script>
@@ -96,7 +106,7 @@
 	<script src="js/jquery.marquee.min.js"></script>
 	<script src="css/mplayer/player.js"></script>
     <script type="text/javascript" charset="utf-8">
-      	mui.init();
+        mui.init();
     </script>
 </body>
 </html>
