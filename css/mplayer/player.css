@@ -71,7 +71,6 @@
 #player .ctrl .musicTag span {
 	font-size:12px;
 	margin-top:5px;
-	color:#757575;
 }
 #player .ctrl .icon {
 	display:inline-block;
@@ -158,7 +157,7 @@
 	padding:3px 15px 3px 11px;
 }
 #playlist li.playing {
-	color:#716e6e;
+	color:#FF82AB;
 	font-weight:bold;
 	border-left:3px solid #1abc9c;
 	padding:3px 15px 3px 11px;
