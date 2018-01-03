@@ -13,7 +13,7 @@
     
     //playlist
     var	playlist = [
-	    {title:"回到过去",artist:"周杰伦",mp3:"https://pan.baidu.com/s/1geMcVUr",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
+	    {title:"回到过去",artist:"周杰伦",mp3:"https://d.pcs.baidu.com/file/d35f1e989b7a1690f14aabbb8c685594?fid=287334488-250528-406101186881797&time=1514950762&rt=sh&sign=FDTAERVY-DCb740ccc5511e5e8fedcff06b081203-lxGCvrYGqxys3pBWDwlfLQ78KrA%3D&expires=8h&chkv=1&chkbd=0&chkpc=et&dp-logid=57649676110756542&dp-callid=0&r=362888364",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
 		{title:"Gravity",artist:"Jessica",mp3:"http://p2.music.126.net/lkK28FliZQJwQ5r1XAZ-KA==/3285340747760477.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
 		{title:"Luv Letter",artist:"DJ OKAWARI",mp3:"http://p2.music.126.net/hpNIN9n-_GeBCv0jMSIxww==/3172091046155063.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
 		{title:"Flower Dance",artist:"DJ OKAWARI",mp3:"http://p2.music.126.net/lEtKDG2hAnhw4V2z4dxMpQ==/3086329139187024.mp3",cover:"http://p3.music.126.net/P1ac-TWkFzjDqcvl5_oK7Q==/881808325476577.jpg?param=106x106",},
