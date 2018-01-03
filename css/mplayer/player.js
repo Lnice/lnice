@@ -16,7 +16,7 @@
 	{title:"安静",artist:"周杰伦",mp3:"/css/mplayer/anjing.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"暗号",artist:"周杰伦",mp3:"/css/mplayer/anhao.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"白色风车",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103150353/1ce314595c0d05db94c0b3fc74388bd7/ymusic/e2e8/06f7/7d61/e2a43c5a74908be157bb8fa21422b32f.mp3",cover:"/css/mplayer/20180103101720.png",},
-        {title:"半岛铁盒",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103130649/05e38b80b3ccb7940fce40a69b1abf02/ymusic/8528/22df/fe9d/88b2e1bfd01175b48e2b88f07798e3d4.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"半岛铁盒",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103151232/29601f5a887f21281b55aee358f69562/ymusic/8528/22df/fe9d/88b2e1bfd01175b48e2b88f07798e3d4.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"本草纲目",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103130714/9b8d6918301260163fb057fb144b171c/ymusic/f5d2/134f/c6b6/34127cb621e9791179ff8c1c0f0a6618.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"斗牛",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103130737/aa2aa2985b6bad4046586f00c9ecc3bf/ymusic/6a42/26c6/5ce1/ffe3fafdb90fdd8ef985518e2cbcd24d.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"分裂",artist:"周杰伦",mp3:"http://m10.music.126.net/20180103130801/c1f5c5a4995445bb0ca7b231e8a955cd/ymusic/9a4c/d71d/9833/115617e24f5abfc9b59fd9fa133cf0c0.mp3",cover:"/css/mplayer/20180103101720.png",},
