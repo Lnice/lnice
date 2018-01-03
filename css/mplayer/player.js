@@ -3,7 +3,7 @@
 	var isShowNotification = false,
 		isInitMarquee = true,
 		isRotate = true,//图片是否旋转
-		autoplay = false,//是否自动播放
+		autoplay = true,//是否自动播放
 		shuffleArray = [],
 		shuffleIndex,
 		autoClearTimer,
