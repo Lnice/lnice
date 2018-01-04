@@ -14,6 +14,14 @@
     //playlist
     var	playlist = [
 	{title:"安静",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186139.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"爱情废柴",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602087.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"床边故事",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=415792916.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"土耳其冰淇淋",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602086.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"告白气球",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418603077.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"说走就走",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602084.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"一点点",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418603076.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"前世情人",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=415792918.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"英雄-(游戏《英雄联盟》主题曲)",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602085.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"暗号",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186047.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"白色风车",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=185890.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"半岛铁盒",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186046.mp3",cover:"/css/mplayer/20180103101720.png",},
