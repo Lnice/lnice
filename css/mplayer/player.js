@@ -14,8 +14,14 @@
     //playlist
     var	playlist = [
 	{title:"安静",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186139.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"米兰的小铁匠",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186057.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"威廉古堡",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186134.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"爱情废柴",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602087.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"对不起",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186131.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"床边故事",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=415792916.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"皮影戏",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=185622.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"公主病",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=185616.mp3",cover:"/css/mplayer/20180103101720.png",},
+        {title:"世界未末日",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=185621.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"土耳其冰淇淋",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602086.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"告白气球",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418603077.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"说走就走",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602084.mp3",cover:"/css/mplayer/20180103101720.png",},
