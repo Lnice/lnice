@@ -14,7 +14,7 @@
     //playlist
     var	playlist = [
 	{title:"安静",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186139.mp3",cover:"/img/sys/me.jpg",},
-        {title:"米兰的小铁匠",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186057.mp3",cover:"/img/sys/me.jpg",},
+        {title:"米兰的小铁匠",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186057.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"威廉古堡",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186134.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"爱情废柴",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=418602087.mp3",cover:"/css/mplayer/20180103101720.png",},
         {title:"对不起",artist:"周杰伦",mp3:"http://music.163.com/song/media/outer/url?id=186131.mp3",cover:"/css/mplayer/20180103101720.png",},
