@@ -14,6 +14,7 @@
     //playlist
     var	playlist = [
 	{title:"依然爱你",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25642129.mp3",cover:"/img/sys/pei.jpg",},
+	{title:"佛系少女",artist:"冯提莫",mp3:"http://music.163.com/song/media/outer/url?id=539941039.mp3",cover:"/img/sys/pei.jpg",},
 	{title:"最美的期待",artist:"周笔畅",mp3:"http://music.163.com/song/media/outer/url?id=531295576.mp3",cover:"/img/sys/pei.jpg",},
         {title:"起风了（Cover 高橋優）",artist:"买辣椒也用券",mp3:"http://music.163.com/song/media/outer/url?id=461525011.mp3",cover:"/img/sys/pei.jpg",},
         {title:"非酋",artist:"薛明媛,朱贺",mp3:"http://music.163.com/song/media/outer/url?id=489506275.mp3",cover:"/img/sys/pei.jpg",},
