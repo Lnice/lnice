@@ -51,7 +51,7 @@
 	if (isShuffle && shuffle_array != undefined && playlist.length === (shuffleArray=JSON.parse(shuffle_array)).length) {
 		currentTrack = shuffleArray[0];
 		shuffleIndex = 0;
-	    $('#QPlayer .liebiao').attr('title', '点击关闭随机播放');
+	    $('#QPlayer .liebiao').attr('title', '点击开启顺序播放');
 	} else {
 		isShuffle = false;
 	    $('#QPlayer .liebiao').attr('title', '点击开启随机播放');
@@ -225,7 +225,7 @@
 	$(".liebiao").on('click',function(){
 		isShuffle = !isShuffle;
 		if (isShuffle) {
-	        $("#player .liebiao").attr("title","点击关闭随机播放");
+	        $("#player .liebiao").attr("title","点击开启顺序播放");
 	        showNotification('已开启随机播放');
 
 			var temp = [];
@@ -347,7 +347,7 @@ function showNotification(info) {
 		$('.qplayer-notification').css({"width":width,"transition":"all .7s ease"});
 		$('.qplayer-notification .close').delay(500).show(0);
 	},1500);
-	autoClearTimer = setTimeout("if ($('.qplayer-notification').length>0) {closeNotification()}",3000);
+	autoClearTimer = setTimeout("if ($('.qplayer-notification').length>0) {closeNotification()}",5000);
 }
 
 
