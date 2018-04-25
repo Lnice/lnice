@@ -152,10 +152,14 @@
 	var ended = function(){
 		pause();
 		audio.currentTime = 0;
+		alert(isShuffle);
 		if (isShuffle){
 			shufflePlay(1);
 		} else { 
-			if (currentTrack < playlist.length) switchTrack(++currentTrack);
+			if (currentTrack < playlist.length){ 
+				switchTrack(++currentTrack)
+			};
+			alert("currentTrack:"+currentTrack+",playlistlength:"+playlist.length);
 		}
 		
 	}
