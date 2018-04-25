@@ -146,7 +146,6 @@
 		    currentTrack = shuffleArray[shuffleIndex];
 		}
 		switchTrack(currentTrack);
-		alert(currentTrack);
 	}
 
 	// Fire when track ended
