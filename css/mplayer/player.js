@@ -242,7 +242,7 @@
 			localStorage.qplayer_shuffle_array = JSON.stringify(shuffleArray);
 		} else {
 	        $("#player .liebiao").attr("title","点击开启随机播放");
-	        showNotification('已关闭随机播放');
+	        showNotification('已开启顺序播放');
 	        localStorage.removeItem('qplayer_shuffle_array');
 		}
 		localStorage.qplayer = isShuffle;
