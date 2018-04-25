@@ -346,7 +346,7 @@ function showNotification(info) {
 		$('.qplayer-notification').css({"width":width,"transition":"all .7s ease"});
 		$('.qplayer-notification .close').delay(500).show(0);
 	},1500);
-	autoClearTimer = setTimeout("if ($('.qplayer-notification').length>0) {closeNotification()}",5000);
+	autoClearTimer = setTimeout("if ($('.qplayer-notification').length>0) {closeNotification()}",3000);
 }
 
 
