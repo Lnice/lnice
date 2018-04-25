@@ -9,7 +9,7 @@
 		autoClearTimer,
 		autoShowTimer,
 		isFirstPlay = localStorage.qplayer == undefined? true: false,
-		isShuffle = localStorage.qplayer == undefined? false: localStorage.qplayer === 'true'? true: false;
+		isShuffle = localStorage.qplayer == undefined? false: (localStorage.qplayer == 'true'? true: false);
     
     //playlist
     var	playlist = [
