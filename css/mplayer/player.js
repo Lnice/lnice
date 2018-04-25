@@ -32,8 +32,7 @@
         {title:"第一个清晨",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25986096.mp3",cover:"/img/sys/pei.jpg",},
         {title:"盖世英雄",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25986097.mp3",cover:"/img/sys/pei.jpg",},
         {title:"我们的歌",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25642952.mp3",cover:"/img/sys/pei.jpg",},
-        {title:"伯牙绝弦",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25643268.mp3",cover:"/img/sys/pei.jpg",},
-
+        {title:"伯牙绝弦",artist:"王力宏",mp3:"http://music.163.com/song/media/outer/url?id=25643268.mp3",cover:"/img/sys/pei.jpg",}
 		];
 		
 	// Load playlist
@@ -337,7 +336,7 @@ function showNotification(info) {
     	clearTimeout(autoClearTimer);
     	clearTimeout(autoShowTimer);
     }
-	$('body').append('<div class="qplayer-notification animation-target"><span class="qplayer-notification-icon">i</span><span class="body" style="box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 5px;"><span class="message"></span></span><a class="close" href="#" onclick="closeNotification();return false;">×</a><div style="clear: both"></div>');
+	$('body').append('<div class="qplayer-notification animation-target"><span class="qplayer-notification-icon">i</span><span class="body" style="box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 5px;"><span class="message"></span></span><div style="clear: both"></div>');
 	$('.qplayer-notification .message').text(info);
 	//用width:auto来自动获取通知栏宽度
 	var width = $('.qplayer-notification').css({"opacity":"0", "width":"auto"}).width() + 20;
