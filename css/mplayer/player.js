@@ -146,22 +146,20 @@
 		    currentTrack = shuffleArray[shuffleIndex];
 		}
 		switchTrack(currentTrack);
+		alert(currentTrack);
 	}
 
 	// Fire when track ended
 	var ended = function(){
 		pause();
 		audio.currentTime = 0;
-		alert(isShuffle);
 		if (isShuffle){
 			shufflePlay(1);
 		} else { 
 			if (currentTrack < playlist.length){ 
-				switchTrack(++currentTrack)
+				switchTrack(++currentTrack);
 			};
-			alert("currentTrack:"+currentTrack+",playlistlength:"+playlist.length);
-		}
-		
+		}		
 	}
 
 	var beforeLoad = function(){
