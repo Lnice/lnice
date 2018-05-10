@@ -5,35 +5,12 @@
     <title>PFplayer</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="css/mui.min.css"/>
-	<link rel="stylesheet" href="css/mplayer/player.css">
+    <link rel="stylesheet" href="css/player.min.css">
 </head>
 <body>
 	<div class="mui-content">
 		<div id="tabbar-with-music" class="mui-control-content mui-active">
-			<div id="QPlayer">
-				<div id="player">
-				<span class="cover"></span>
-				<div class="ctrl">
-				<div class="musicTag marquee">
-				<strong>Title</strong>
-				 <span> - </span>
-				<span class="artist">Artist</span>
-				</div>
-				<div class="progress">
-				<div class="timer left">0:00</div>
-				<div class="contr">
-					<div class="rewind icon"></div>
-					<div class="playback icon"></div>
-					<div class="fastforward icon"></div>
-				</div>
-				<div class="right">
-					<div class="liebiao icon"></div>
-				</div>
-				</div>
-				</div>
-				</div>
-				<ol id="playlist"></ol>
-			</div>
+			<div id="pfplayer"></div>
 		</div>		
         <div id="tabbar-with-chat" class="mui-control-content">
 		<div class="mui-card">
@@ -117,8 +94,7 @@
 	</nav>
     <script src="js/mui.min.js"></script>
     <script src="js/jquery.min.js"></script>
-	<script src="js/jquery.marquee.min.js"></script>
-	<script src="css/mplayer/player.js"></script>
+    <script src="js/player.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         mui.init();
     </script>
